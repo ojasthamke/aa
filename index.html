@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FreshVeg | Farm-Fresh Delivery</title>
+
+    <!-- PWA & Mobile Optimization -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2ecc71">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="FreshVeg">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" href="https://img.icons8.com/color/192/000000/vegetables.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="mobile-app-feel">
+
+    <!-- Custom Cursor for Desktop (Disabled on Mobile) -->
+    <div class="cursor"></div>
+
+    <!-- Mobile Mobile Menu Toggle -->
+    <div class="menu-toggle" id="menuToggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <!-- Social Links / Vertical Progress (MNTN Style) -->
+    <div class="side-nav">
+        <div class="social-side">
+            <span>Follow us</span>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="scroll-nav">
+            <a href="#hero" class="active">Start</a>
+            <a href="#section1">01</a>
+            <a href="#section2">02</a>
+            <a href="#section3">03</a>
+            <a href="#section4">04</a>
+            <a href="#section5">05</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Fresh<span>Veg</span></div>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#section1">Our Story</a></li>
+                <li><a href="#section2">Quality</a></li>
+                <li><a href="#section3">Delivery</a></li>
+                <li><a href="#section4">About Us</a></li>
+                <li><a href="#section5">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="account">
+            <i class="far fa-user-circle"></i>
+            <span>Account</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-full reveal">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="tagline anim-up">
+                <div class="line"></div>
+                A Local Indian Startup
+            </div>
+            <h1 class="anim-up delay-1">Farm-Fresh Vegetables <br>Delivered to Your Door</h1>
+            <p class="anim-up delay-2">Fresh quality, fair prices, and reliable delivery every week.</p>
+
+            <div class="hero-benefits anim-up delay-3">
+                <div class="benefit-mini">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Premium Quality</span>
+                </div>
+                <div class="benefit-mini">
+                    <i class="fas fa-indian-rupee-sign"></i>
+                    <span>Best Prices</span>
+                </div>
+                <div class="benefit-mini">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Weekly Slots</span>
+                </div>
+            </div>
+
+            <div class="hero-actions anim-up delay-4">
+                <a href="#section1" class="btn order-btn">Start Journey <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 01: Our Story -->
+    <section id="section1" class="mntn-section reveal">
+        <div class="section-container">
+            <div class="section-text">
+                <div class="section-number">01</div>
+                <div class="tagline">
+                    <div class="line"></div>
+                    Our Journey
+                </div>
+                <h2>Directly From Local Indian Farms</h2>
+                <p>Bridging the gap between rural Indian farmers and your urban kitchen. Removing middlemen to ensure you get the freshest harvest while farmers receive fair value.</p>
+                <div class="section-actions">
+                    <a href="#" class="btn order-btn">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="section-image parralax-img">
+                <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=800&q=80" alt="Fresh Farm">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 02: Quality -->
+    <section id="section2" class="mntn-section reverse reveal">
+        <div class="section-container">
+            <div class="section-text">
+                <div class="section-number">02</div>
+                <div class="tagline">
+                    <div class="line"></div>
+                    Quality Focus
+                </div>
+                <h2>3-Step Quality Checks</h2>
+                <p>Our promise is simple: excellence. We conduct rigorous checks on every piece of produce so only the best reaches your kitchen.</p>
+                <div class="section-actions">
+                    <a href="#" class="btn order-btn">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="section-image parralax-img">
+                <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=800&q=80" alt="Vegetables">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 03: Delivery -->
+    <section id="section3" class="mntn-section reveal">
+        <div class="section-container">
+            <div class="section-text">
+                <div class="section-number">03</div>
+                <div class="tagline">
+                    <div class="line"></div>
+                    Reliability
+                </div>
+                <h2>Seamless Delivery Network</h2>
+                <p>Smart logistics that value your time. Scheduled delivery slots ensuring your kitchen is never empty. Track in real-time.</p>
+                <div class="section-actions">
+                    <a href="#" class="btn order-btn">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="section-image parralax-img">
+                <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80" alt="Delivery">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 04: About Us -->
+    <section id="section4" class="mntn-section reverse reveal">
+        <div class="section-container">
+            <div class="section-text">
+                <div class="section-number">04</div>
+                <div class="tagline">
+                    <div class="line"></div>
+                    The Promise
+                </div>
+                <h2>Why Choose Us?</h2>
+                <div class="about-benefits-grid">
+                    <div class="about-benefit-item">
+                        <i class="fas fa-star"></i>
+                        <p>Premium Quality</p>
+                    </div>
+                    <div class="about-benefit-item">
+                        <i class="fas fa-tag"></i>
+                        <p>Daily Prices</p>
+                    </div>
+                    <div class="about-benefit-item">
+                        <i class="fas fa-bolt"></i>
+                        <p>Fast Dispatch</p>
+                    </div>
+                    <div class="about-benefit-item">
+                        <i class="fas fa-heart"></i>
+                        <p>Zero Stress</p>
+                    </div>
+                </div>
+                <div class="section-actions" style="margin-top: 40px;">
+                    <a href="#" class="btn order-btn">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="section-image">
+                <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=800&q=80" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 05: Get in Touch -->
+    <section id="section5" class="mntn-section reveal">
+        <div class="section-container">
+            <div class="section-text">
+                <div class="section-number">05</div>
+                <div class="tagline">
+                    <div class="line"></div>
+                    Contact Us
+                </div>
+                <h2>Ready for Freshness?</h2>
+                <p>Join thousands of happy customers. We're here to help you every step of the way.</p>
+                <div class="contact-mini-info">
+                    <p><i class="fas fa-phone-alt"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> hello@freshveg.in</p>
+                </div>
+                <div class="section-actions">
+                    <a href="#" class="btn order-btn">Order Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="section-image">
+                <img src="https://images.unsplash.com/photo-1534536281715-e28d76689b4d?auto=format&fit=crop&w=800&q=80" alt="Contact Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo">Fresh<span>Veg</span></div>
+                <p>Pure, Fresh, and Wholesome. Directly from local Indian farms.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#section1">Our Story</a></li>
+                    <li><a href="#section4">About Us</a></li>
+                    <li><a href="#section5">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2024 FreshVeg India.</p>
+    </footer>
+
+    <!-- Service Worker Registration -->
+    <script src="script.js"></script>
+</body>
+</html>
